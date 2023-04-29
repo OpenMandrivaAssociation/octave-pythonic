@@ -17,6 +17,7 @@ Url:		https://gitlab.com/mtmiller/octave-pythonic/
 Source0:	https://gitlab.com/mtmiller/octave-pythonic/-/archive/%{commit}/octave-pythonic-%{commit}.tar.bz2
 
 BuildRequires:  octave-devel >= 4.4.0
+BuildRequires:  pkgconfig(python)
 
 Requires:	octave(api) = %{octave_api}
 
