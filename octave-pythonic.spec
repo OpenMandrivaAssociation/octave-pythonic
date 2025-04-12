@@ -4,7 +4,7 @@
 Summary:	The Pythonic package provides a Python language binding for Octave, to allow an
 Name:		octave-pythonic
 Version:	0.1.3
-Release:	2
+Release:	3
 License:	GPLv3+
 Group:		Sciences/Mathematics
 #Url:		https://packages.octave.org/pythonic/
