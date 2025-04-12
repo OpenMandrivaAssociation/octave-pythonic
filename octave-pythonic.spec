@@ -40,7 +40,7 @@ automatic translation from Octave to Python data types.
 %autosetup -p1
 
 # remove the '+' char from the version 
-sed -i -e 's,^Version: 0.1.3
+sed -i -e 's,^Version: \(.*\)+,Version: \1,' DESCRIPTION
 
 %build
 %octave_pkg_build
